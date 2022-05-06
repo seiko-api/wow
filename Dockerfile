@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", ". --db 'mongodb+srv://Seiko:Seikopoke@cluster0.03dis.mongodb.net/databasebot?retryWrites=true&w=majority'"]
+CMD ["node . --db 'mongodb+srv://Seiko:Seikopoke@cluster0.03dis.mongodb.net/databasebot?retryWrites=true&w=majority'"]
